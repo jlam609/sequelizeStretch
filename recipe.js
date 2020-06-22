@@ -27,8 +27,8 @@ const Recipe = db.define('recipe', {
         type:BOOLEAN,
     },
     foodGroup:{
-        type:ENUM({
-            values: ['vegetable', 'meat', 'dairy', 'grain', 'fruit', 'coffee']})
+        type:ENUM,
+        values: ['vegetable', 'meat', 'dairy', 'grain', 'fruit']
     }
 })
 
